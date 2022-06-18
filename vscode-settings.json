@@ -1,0 +1,42 @@
+{
+  "settingsSync.ignoredSettings": ["configurationSync.store"],
+  "configurationSync.store": {
+    "url": "https://gitpod.io/code-sync",
+    "stableUrl": "https://gitpod.io/code-sync",
+    "insidersUrl": "https://gitpod.io/code-sync",
+    "canSwitch": false,
+    "authenticationProviders": {
+      "gitpod": {
+        "scopes": [
+          "function:accessCodeSyncStorage",
+          "function:getLoggedInUser",
+          "resource:default"
+        ]
+      }
+    }
+  },
+  "workbench.colorTheme": "Ayu Dark",
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "inlineSQL.dbUser": "aaronkenny",
+  "inlineSQL.dbPassword": "1002",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "files.exclude": {
+    "**/package-lock.json": true,
+    "**/node_modules": true, 
+     "package-lock.json": true,
+    "node_modules": true,
+    "server/dist": true
+  },
+  "workbench.productIconTheme": "fluent-icons",
+ 
+}
